@@ -80,6 +80,7 @@ export default function GroupTripsPage() {
         body="Let us know which destinations interest you, and we'll be in touch when new trips are announced."
         primary={{ label: "Contact Us", href: "/contact" }}
         secondary={{ label: "Explore destinations", href: "/destinations" }}
+        image={{ src: "/images/destinations/another-destination.jpg", alt: "Friends jumping off a catamaran into turquoise sea" }}
       />
     </>
   );

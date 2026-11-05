@@ -96,6 +96,7 @@ export default function AboutPage() {
         body={brand.supportingMessage}
         primary={{ label: "Explore destinations", href: "/destinations" }}
         secondary={{ label: "Contact Us", href: "/contact" }}
+        image={{ src: "/images/brand/journey-banner.jpg", alt: "Friends leaping off a sailing catamaran into the sea" }}
       />
     </>
   );
