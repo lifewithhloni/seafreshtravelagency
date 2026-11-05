@@ -30,7 +30,7 @@ export default function GroupTripsPage() {
         eyebrow="Organised group travel"
         title="Group Trips"
         intro="Explore new places in good company. SeaFresh group trips bring travellers together around shared destinations, dates and arrangements."
-        image={{ src: "/images/group-trips/group-trips-hero.jpg", alt: "Travellers enjoying a group trip", motif: "sea" }}
+        image={{ src: "/images/group-trips/group-travel.jpg", alt: "A group of friends jumping together on a beach at sunset", motif: "sea" }}
       >
         <EnquiryButtons topic="upcoming group trips" />
       </PageHero>

@@ -29,7 +29,7 @@ export default function IndividualHolidaysPage() {
         eyebrow="Personalised holiday enquiries"
         title="Individual Holidays"
         intro="Travelling solo, as a couple, with family or with friends? Share your preferences and we’ll help you explore holiday options that suit you."
-        image={{ src: "/images/individual-holidays/individual-holidays-hero.jpg", alt: "A relaxed individual holiday", motif: "dunes" }}
+        image={{ src: "/images/individual-holidays/individual-holidays-hero.jpg", alt: "A traveller relaxing on a wooden boat among limestone cliffs", motif: "dunes" }}
       />
 
       <section className="py-16 sm:py-20">

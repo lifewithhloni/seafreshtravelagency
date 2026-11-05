@@ -17,7 +17,7 @@ export const experiences = [
     body: "Travel with others on organised trips with shared dates, arrangements and plenty of good company along the way.",
     href: "/group-trips",
     cta: "Explore group trips",
-    image: { src: "/images/group-trips/group-travel.jpg", alt: "Friends travelling together" },
+    image: { src: "/images/group-trips/group-travel.jpg", alt: "A group of friends jumping together on a beach at sunset" },
     motif: "sea" as const,
   },
   {
@@ -25,7 +25,7 @@ export const experiences = [
     body: "Tell us where, when and how you'd like to travel, and we'll help you plan a holiday around your preferences.",
     href: "/individual-holidays",
     cta: "Plan your holiday",
-    image: { src: "/images/individual-holidays/individual-holiday.jpg", alt: "A relaxed holiday setting" },
+    image: { src: "/images/individual-holidays/individual-holiday.jpg", alt: "A traveller in a sun hat paddling in the sea at sunset" },
     motif: "dunes" as const,
   },
 ];

@@ -72,7 +72,7 @@ export const destinations: Destination[] = [
       "Nearby Pilanesberg National Park",
       "Golf and relaxation",
     ],
-    image: { src: "/images/destinations/sun-city.jpg", alt: "Sun City resort, North West, South Africa" },
+    image: { src: "/images/destinations/sun-city.jpg", alt: "View over the pools and bushveld hills at Sun City resort" },
     motif: "resort",
   },
   {
@@ -94,7 +94,7 @@ export const destinations: Destination[] = [
       "Waterfalls and mountain viewpoints",
       "Access to Lowveld wildlife areas",
     ],
-    image: { src: "/images/destinations/mpumalanga.jpg", alt: "Mountain and canyon scenery in Mpumalanga" },
+    image: { src: "/images/destinations/mpumalanga.jpg", alt: "Sunset over the Blyde River Canyon in Mpumalanga" },
     motif: "mountains",
   },
   {
@@ -116,7 +116,7 @@ export const destinations: Destination[] = [
       "Markets, cafés and weekend outings",
       "Short getaways from Gauteng",
     ],
-    image: { src: "/images/destinations/hartbeespoort.jpg", alt: "Hartbeespoort Dam and the Magaliesberg mountains" },
+    image: { src: "/images/destinations/hartbeespoort.jpg", alt: "Sailing boats on Hartbeespoort Dam below the Magaliesberg" },
     motif: "lake",
   },
   {
@@ -138,7 +138,7 @@ export const destinations: Destination[] = [
       "Wide open desert landscapes",
       "Clear night skies",
     ],
-    image: { src: "/images/destinations/namib-desert.jpg", alt: "Red sand dunes in the Namib Desert, Namibia" },
+    image: { src: "/images/destinations/namib-desert.jpg", alt: "Hiker walking along a red dune ridge in the Namib Desert at sunset" },
     motif: "dunes",
   },
   {
@@ -161,7 +161,7 @@ export const destinations: Destination[] = [
       "River and adventure activities in the area",
     ],
     note: "Whether SeaFresh travel to Victoria Falls will be on the Zambian or Zimbabwean side is still to be confirmed.",
-    image: { src: "/images/destinations/victoria-falls.jpg", alt: "Victoria Falls on the Zambezi River" },
+    image: { src: "/images/destinations/victoria-falls.jpg", alt: "Victoria Falls and its gorge at sunset" },
     motif: "falls",
   },
   {
@@ -183,7 +183,7 @@ export const destinations: Destination[] = [
       "Warm-water swimming",
       "A relaxed coastal atmosphere",
     ],
-    image: { src: "/images/destinations/xai-xai-beach.jpg", alt: "Beach and ocean at Xai-Xai, Mozambique" },
+    image: { src: "/images/destinations/xai-xai-beach.jpg", alt: "Rocky reef, rock pool and dunes at Xai-Xai Beach" },
     motif: "sea",
   },
 ];

@@ -51,7 +51,7 @@ If the WhatsApp number or email is missing or invalid, their buttons are hidden 
 
 ## Photos
 
-Drop files at these paths. Until a file exists, a branded illustrated placeholder appears at the same size, so nothing breaks or shifts. Use landscape JPGs at least 1600 px wide, and only photos SeaFresh owns or is licensed to use. Rebuild after adding them.
+Drop files at these paths (all are filled except the homepage hero, which shows an illustrated background with destination postcards). Until a file exists, a branded illustrated placeholder appears at the same size, so nothing breaks or shifts. Use landscape JPGs at least 1600 px wide, and only photos SeaFresh owns or is licensed to use. Rebuild after adding them.
 
 ```
 public/images/hero/home-hero.jpg
@@ -61,8 +61,7 @@ public/images/destinations/hartbeespoort.jpg
 public/images/destinations/namib-desert.jpg
 public/images/destinations/victoria-falls.jpg
 public/images/destinations/xai-xai-beach.jpg
-public/images/group-trips/group-travel.jpg            (homepage "Group Trips" card)
-public/images/group-trips/group-trips-hero.jpg        (Group Trips page)
+public/images/group-trips/group-travel.jpg            (homepage "Group Trips" card and Group Trips page)
 public/images/group-trips/<trip-slug>.jpg             (each published trip)
 public/images/individual-holidays/individual-holiday.jpg        (homepage card)
 public/images/individual-holidays/individual-holidays-hero.jpg  (Individual Holidays page)
