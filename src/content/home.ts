@@ -63,6 +63,7 @@ export const finalCta = {
   body: brand.supportingMessage,
   primary: { label: "Plan an Individual Holiday", href: "/individual-holidays" },
   secondary: { label: "Contact Us", href: "/contact" },
+  image: { src: "/images/destinations/another-destination.jpg", alt: "Friends jumping off a catamaran into turquoise sea" },
 };
 
 export const tripsEmptyState =

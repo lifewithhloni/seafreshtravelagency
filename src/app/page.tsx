@@ -177,7 +177,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      <CtaBand heading={finalCta.heading} body={finalCta.body} primary={finalCta.primary} secondary={finalCta.secondary} />
+      <CtaBand heading={finalCta.heading} body={finalCta.body} primary={finalCta.primary} secondary={finalCta.secondary} image={finalCta.image} />
     </>
   );
 }
