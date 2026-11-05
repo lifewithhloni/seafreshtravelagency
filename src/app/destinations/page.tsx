@@ -46,6 +46,7 @@ export default function DestinationsPage() {
         body="Tell us where you'd like to go and we'll let you know how we can help."
         primary={{ label: "Plan an Individual Holiday", href: "/individual-holidays" }}
         secondary={{ label: "Contact Us", href: "/contact" }}
+        image={{ src: "/images/destinations/another-destination.jpg", alt: "Friends jumping off a catamaran into turquoise sea" }}
       />
     </>
   );

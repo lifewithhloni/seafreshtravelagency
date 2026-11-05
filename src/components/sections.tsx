@@ -206,24 +206,34 @@ export function CtaBand({
   body,
   primary,
   secondary,
+  image,
 }: {
   heading: string;
   body: string;
   primary: { label: string; href: string };
   secondary?: { label: string; href: string };
+  /** Optional background photo; an overlay keeps the text readable. */
+  image?: { src: string; alt: string };
 }) {
   return (
     <section className="py-16 sm:py-24">
       <Container>
-        <div className="relative overflow-hidden rounded-[2.5rem] bg-ocean px-6 py-16 text-center sm:px-16 sm:py-20">
-          <svg aria-hidden="true" viewBox="0 0 1200 300" preserveAspectRatio="none" className="absolute inset-x-0 bottom-0 h-1/2 w-full">
-            <path d="M0 180c200-60 400-60 600 0s400 60 600 0v120H0Z" fill="#4ab7b0" opacity="0.18" />
-            <path d="M0 230c200-40 400-40 600 0s400 40 600 0v70H0Z" fill="#4ab7b0" opacity="0.25" />
-          </svg>
-          <div className="relative mx-auto max-w-2xl">
+        <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-ocean px-6 py-16 text-center sm:px-16 sm:py-24">
+          {image ? (
+            <>
+              <ScenicImage src={image.src} alt={image.alt} motif="sea" sizes="(min-width: 1280px) 1216px, 100vw" className="-z-20" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ocean-deep/85 via-ocean/65 to-ocean/30" />
+            </>
+          ) : (
+            <svg aria-hidden="true" viewBox="0 0 1200 300" preserveAspectRatio="none" className="absolute inset-x-0 bottom-0 h-1/2 w-full">
+              <path d="M0 180c200-60 400-60 600 0s400 60 600 0v120H0Z" fill="#4ab7b0" opacity="0.18" />
+              <path d="M0 230c200-40 400-40 600 0s400 40 600 0v70H0Z" fill="#4ab7b0" opacity="0.25" />
+            </svg>
+          )}
+          <div className={`relative mx-auto max-w-2xl ${image ? "lg:mx-0 lg:max-w-xl lg:text-left" : ""}`}>
             <h2 className="text-3xl !text-white sm:text-5xl">{heading}</h2>
             <p className="mt-4 text-lg text-white/80">{body}</p>
-            <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
+            <div className={`mt-9 flex flex-col justify-center gap-3 sm:flex-row ${image ? "lg:justify-start" : ""}`}>
               <ButtonLink href={primary.href} variant="primary">
                 {primary.label} <ArrowRightIcon />
               </ButtonLink>
